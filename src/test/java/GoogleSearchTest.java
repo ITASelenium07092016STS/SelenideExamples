@@ -12,7 +12,7 @@ public class GoogleSearchTest {
     public void searchTest(){
         SearchPage searchPage = open("http://google.ru", SearchPage.class);
         //searchPage.searchFor("selenium").getElements().shouldHaveSize(11);
-        searchPage.searchFor("selenium").getElements().shouldHaveSize(12);
+        searchPage.searchFor("selenium").getElements().shouldHaveSize(10);
 
     }
 }
