@@ -31,6 +31,7 @@ public class TestClass {
     @Test
     public void workWithFilesTest() throws FileNotFoundException {
         open("https://the-internet.herokuapp.com/download");
+        Configuration.startMaximized = true;
 
         //File file = new File("123.txt");
 
